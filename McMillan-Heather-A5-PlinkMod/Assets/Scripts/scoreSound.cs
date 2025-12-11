@@ -10,7 +10,7 @@ public class scoreSound : MonoBehaviour
 
     private void Start()
     {
-        //call audio tied to game object
+        //tie source audio to game object
         audioSource = GetComponent<AudioSource>();
 
     }

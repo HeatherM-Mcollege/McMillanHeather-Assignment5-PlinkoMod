@@ -13,7 +13,7 @@ public class enterTheVoid : MonoBehaviour
 
     private void Start()
     {
-        //call audio tied to game object
+        //reference audio source on GameObject
         audioSource = GetComponent<AudioSource>();
 
     }

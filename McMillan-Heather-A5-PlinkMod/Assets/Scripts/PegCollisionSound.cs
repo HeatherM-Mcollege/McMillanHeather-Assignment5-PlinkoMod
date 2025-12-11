@@ -11,7 +11,7 @@ public class PegCollisionSound : MonoBehaviour
 
     private void Start()
     {
-        //call audio tied to game object
+        //tie audio tied to game object
         audioSource = GetComponent<AudioSource>();
 
     }
